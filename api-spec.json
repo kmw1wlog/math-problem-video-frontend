@@ -1,0 +1,212 @@
+[
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/user/history",
+    "file": "src/components/account-management.tsx",
+    "line": 43,
+    "bodyKeys": []
+  },
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/admin/problems",
+    "file": "src/components/admin-panel-enhanced.tsx",
+    "line": 127,
+    "bodyKeys": []
+  },
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/community/posts/general",
+    "file": "src/components/admin-panel-enhanced.tsx",
+    "line": 144,
+    "bodyKeys": []
+  },
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/community/posts/anonymous",
+    "file": "src/components/admin-panel-enhanced.tsx",
+    "line": 147,
+    "bodyKeys": []
+  },
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/admin/evaluations",
+    "file": "src/components/admin-panel-enhanced.tsx",
+    "line": 171,
+    "bodyKeys": []
+  },
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/admin/stats",
+    "file": "src/components/admin-panel-enhanced.tsx",
+    "line": 193,
+    "bodyKeys": []
+  },
+  {
+    "method": "DELETE",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/admin/problems/${problemId}",
+    "file": "src/components/admin-panel-enhanced.tsx",
+    "line": 215,
+    "bodyKeys": []
+  },
+  {
+    "method": "DELETE",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/admin/posts/${postId}",
+    "file": "src/components/admin-panel-enhanced.tsx",
+    "line": 240,
+    "bodyKeys": []
+  },
+  {
+    "method": "DELETE",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/admin/posts/${postId}/replies/${replyId}",
+    "file": "src/components/admin-panel-enhanced.tsx",
+    "line": 265,
+    "bodyKeys": []
+  },
+  {
+    "method": "DELETE",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/admin/evaluations/${evaluationId}",
+    "file": "src/components/admin-panel-enhanced.tsx",
+    "line": 290,
+    "bodyKeys": []
+  },
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/admin/problems",
+    "file": "src/components/admin-panel.tsx",
+    "line": 93,
+    "bodyKeys": []
+  },
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/community/posts/general",
+    "file": "src/components/admin-panel.tsx",
+    "line": 128,
+    "bodyKeys": []
+  },
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/community/posts/anonymous",
+    "file": "src/components/admin-panel.tsx",
+    "line": 135,
+    "bodyKeys": []
+  },
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/admin/evaluations",
+    "file": "src/components/admin-panel.tsx",
+    "line": 172,
+    "bodyKeys": []
+  },
+  {
+    "method": "POST",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/signup",
+    "file": "src/components/auth-modal.tsx",
+    "line": 42,
+    "bodyKeys": []
+  },
+  {
+    "method": "POST",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/signin",
+    "file": "src/components/auth-modal.tsx",
+    "line": 66,
+    "bodyKeys": []
+  },
+  {
+    "method": "POST",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/auth/google",
+    "file": "src/components/auth-modal.tsx",
+    "line": 108,
+    "bodyKeys": []
+  },
+  {
+    "method": "POST",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/auth/kakao",
+    "file": "src/components/auth-modal.tsx",
+    "line": 130,
+    "bodyKeys": []
+  },
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/community/posts/${boardType}",
+    "file": "src/components/community-section.tsx",
+    "line": 89,
+    "bodyKeys": []
+  },
+  {
+    "method": "POST",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/community/posts",
+    "file": "src/components/community-section.tsx",
+    "line": 208,
+    "bodyKeys": []
+  },
+  {
+    "method": "POST",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/community/posts/${postId}/like",
+    "file": "src/components/community-section.tsx",
+    "line": 233,
+    "bodyKeys": []
+  },
+  {
+    "method": "POST",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/community/posts/${postId}/reply",
+    "file": "src/components/community-section.tsx",
+    "line": 277,
+    "bodyKeys": []
+  },
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/problem/${problemId}",
+    "file": "src/components/loading-section.tsx",
+    "line": 163,
+    "bodyKeys": []
+  },
+  {
+    "method": "POST",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/evaluations",
+    "file": "src/components/result-analysis-section.tsx",
+    "line": 36,
+    "bodyKeys": []
+  },
+  {
+    "method": "POST",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/evaluations",
+    "file": "src/components/result-modal.tsx",
+    "line": 63,
+    "bodyKeys": []
+  },
+  {
+    "method": "POST",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/evaluations",
+    "file": "src/components/result-section.tsx",
+    "line": 62,
+    "bodyKeys": []
+  },
+  {
+    "method": "GET",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/user/history",
+    "file": "src/components/storage-section.tsx",
+    "line": 74,
+    "bodyKeys": []
+  },
+  {
+    "method": "DELETE",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/user/history/problem/${problemId}",
+    "file": "src/components/storage-section.tsx",
+    "line": 137,
+    "bodyKeys": []
+  },
+  {
+    "method": "PUT",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/user/history/problem/${problemId}/title",
+    "file": "src/components/storage-section.tsx",
+    "line": 173,
+    "bodyKeys": []
+  },
+  {
+    "method": "POST",
+    "url": "https://${projectId}.supabase.co/functions/v1/make-server-3a80e39f/upload",
+    "file": "src/components/upload-section.tsx",
+    "line": 72,
+    "bodyKeys": []
+  }
+]
