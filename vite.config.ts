@@ -3,7 +3,13 @@
   import react from '@vitejs/plugin-react-swc';
   import path from 'path';
 
+  // https://vitejs.dev/config/
   export default defineConfig({
+    define: {
+      'process.env.VITE_SUPABASE_URL': JSON.stringify('https://fycrkqrhrxcarllthqfl.supabase.co'),
+      'process.env.VITE_SUPABASE_ANON_KEY': JSON.stringify('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ5Y3JrcXJocnhjYXJsbHRocWZsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgwOTg2MDEsImV4cCI6MjA3MzY3NDYwMX0.H_PxPGnsIOWuKNsSPBNKIi4-Nwn_1qqNPfVSRe6w64A'),
+      'process.env.VITE_API_BASE_URL': JSON.stringify('https://manion-backendver11-production.up.railway.app'),
+    },
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
